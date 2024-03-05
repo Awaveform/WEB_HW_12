@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "web-hw-12"
+version = "0.1.0"
+description = ""
+authors = ["anton <aillarionov@b2bsoft.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+python-multipart = "^0.0.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
